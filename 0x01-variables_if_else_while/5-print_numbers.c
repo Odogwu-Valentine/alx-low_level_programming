@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
@@ -15,8 +15,8 @@ int main(void)
 
 	for (num = 0; num < 10; num++)
 	{
-		putchar(num);
+		printf("%u", num);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
