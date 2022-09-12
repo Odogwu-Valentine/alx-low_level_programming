@@ -13,7 +13,8 @@ int main(void)
 
 	for (A = 97 ; A <= 122 ; A++)
 	{
-		putchar (A + '\n');
+		putchar (A);
+		putchar ('\n');
 	}
 return (0);
 }
