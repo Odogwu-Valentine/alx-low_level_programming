@@ -10,8 +10,6 @@
 int main(void)
 {
 	int a;
-	int e;
-	int z;
 
 	for (a = 97; a <= 122; a++)
 	{
