@@ -3,7 +3,8 @@
 /**
  * main -Entry point
  * Description: printing alphabet in lower case
- * Return: ALways 0 (success)
+ *
+ * Return: Always 0 (success)
  */
 
 void print_alphabet(void)
@@ -15,4 +16,5 @@ void print_alphabet(void)
 		_putchar(a);
 	}
 	_putchar('\n');
+	return (0);
 }
