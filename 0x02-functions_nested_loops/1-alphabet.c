@@ -2,14 +2,13 @@
 
 /**
  * main -Entry point
- * Description: printing alphabet in lower case
  *
  * Return: Always 0 (success)
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
-	int a;
+	int a
 
 	for (a = 97; a <= 122; a++)
 	{
