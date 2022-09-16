@@ -7,11 +7,7 @@
  * @: second number to be aded
  * Return: return th sum
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a, b, c;
-
-	c = a + b;
-	_putchar(c);
-	return (c);
+	return (a + b);
 }
