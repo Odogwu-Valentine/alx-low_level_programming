@@ -10,11 +10,10 @@ int _sqrt_recursion(int n)
 {
 	if (n == 1 || n == 0)
 		return (n);
-	return (_sqrt (0, n));
+	return (_sqrt(0, n));
 }
 /**
- * _:wq
- * sqrt - returns the sqaure rot of a number
+ * _sqrt - returns the sqaure rot of a number
  * @n: test number
  * @x: sqaure number
  *
@@ -26,5 +25,5 @@ int _sqrt(int n, int x)
 		return (-1);
 	else if (n * n == x)
 		return (n);
-	return (_sqrt (n + 1, x));
+	return (_sqrt(n + 1, x));
 }
