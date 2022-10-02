@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_palindrome - returns the 1 if s is a palindrome
+ * is_palindrome - check s for palindrome
  * @s: string to be checked
  * Return: 1 if s is a palindrome, 0 otherwise
  */
@@ -36,7 +36,7 @@ void check(char *s, int start, int end, int *flag)
  * _strlen_recursion - calculate the legth of a string
  * @s: string to be used
  *
- * return: length of the string
+ * Return: length of the string
  */
 int _strlen_recursion(char *s)
 {
