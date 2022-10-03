@@ -1,14 +1,13 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * whatsmyname - prints th name of the program when ran
+ * main - prints the name of the program when ran
  * @argc: count of all arguments
- * @argv: arguments inputted or used by the function at the tie of running
+ * @argv: argument vector of pointers to string
  *
  * Return: always 0 if succesful
  */
-char whatsmyname(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[]))
 {
-	printf("%s\n", argv[2]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
